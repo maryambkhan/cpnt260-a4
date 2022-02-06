@@ -8,7 +8,7 @@ nav {
   justify-content: space-around;
   font-size:1.2em;
   gap: 2rem;
-  background-color:#579d8e;
+  background-color:   #39537b;
   padding:0px 6px;
 }
 
@@ -64,24 +64,22 @@ body {
 .btn:hover {
   background-color: grey;
 }
-/* second background image layout */
-.hero {
- background-image: url("https://images.pexels.com/photos/4050284/pexels-photo-4050284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  height: 80vh;
-  background-position: center;
-  background-size: cover;
-  margin: 50px 50px 20px;
-}
+
  img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  grid-row: 1;
+  grid-column: 1;
  }
  /* grid layout */
  .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1rem;
   margin: 10px 50px 20px;
  }
+
 /* form layout */
  form {
   display: flex;
@@ -108,7 +106,6 @@ input:focus {
 
 label {
   display: inline-block;
-  float: left;
   clear: left;
   text-align: right;
   font-family: "Source Serif 4", sans-serif;
@@ -144,7 +141,8 @@ legend {
 }
 
 .image-size {
-  margin: 10px 50px 20px;
+  margin-top: 10px;
+
 }
 
 .contact {
@@ -153,11 +151,6 @@ legend {
   align-items: center;
   margin: 10px 50px 20px;
 }
-
-
-
-
-
 /* footer layout */
 footer {
   display:flex;

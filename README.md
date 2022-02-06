@@ -19,3 +19,7 @@ Attributions:
 
 - Photo by Murilo Fonseca from Pexels
 (https://images.pexels.com/photos/9957265/pexels-photo-9957265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+
+- Photo by Julia Filirovska from Pexels
+(https://images.pexels.com/photos/8128872/pexels-photo-8128872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+
