@@ -39,6 +39,7 @@ nav a {
 
 body {
   margin: auto;
+  overflow-x: hidden;
 }
 /* background image layout */
 .container {
@@ -78,11 +79,12 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
   margin: 10px 50px 20px;
+  
  }
 
 /* form layout */
  form {
-  display: flex;
+  display: grid;
   flex-direction: column;
   padding: 4rem;
   height: 50%;
@@ -146,7 +148,7 @@ legend {
 }
 
 .contact {
-  display: flex;
+  display: grid;
   justify-content: column;
   align-items: center;
   margin: 10px 50px 20px;
