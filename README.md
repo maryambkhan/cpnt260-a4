@@ -23,6 +23,6 @@ Attributions:
 - Photo by Julia Filirovska from Pexels
 (https://images.pexels.com/photos/8128872/pexels-photo-8128872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
 
-- [GH repo]("https://github.com/maryambkhan/cpnt260-a4")
+- [GH repo](https://github.com/maryambkhan/cpnt260-a4)
 
-- [GH pages]("https://maryambkhan.github.io/cpnt260-a4/")
+- [GH pages](https://maryambkhan.github.io/cpnt260-a4/)
